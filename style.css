@@ -1,0 +1,73 @@
+/* Page Body & Typography */
+body {
+  background-color: #f1f5f9; /* Clean slate background */
+  font-family: Arial, sans-serif;
+  color: #0f172a;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header & Heading Styles */
+header {
+  background-color: #e11d48; /* T1 Esports Red */
+  color: linear-gradient(90deg, #e3d72e, #bcaf49);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.center-image {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+table {
+border-collapse: collapse;  
+
+width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+caption {
+  border: 1px solid #27303c;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #df7c7c;
+}
+
+th, td {
+    border: 1px solid #27303c;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Dynamic Row Styling (Zebra Striping & Hover) */
+tbody tr:nth-child(odd) {
+  background-color: #9ac8f6;
+}
+
+tbody tr:first-child {
+  background-color: #9ac8f6;
+}
+
+
+
+tbody tr:hover {
+  background-color: #7cd219;
+}
+
+/*Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #64748b;
+  border-top: 1px solid #cbd5e1;
+}
+
